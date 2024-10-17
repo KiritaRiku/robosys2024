@@ -1,6 +1,7 @@
 #!/usr/bin/python3
 import sys
 
+def tonum(s)
 for line in sys.stdin:
     try:
         ans += int(line)
@@ -10,6 +11,6 @@ for line in sys.stdin:
 ans = 0
 for line in sys.stdin:
     line = line.rstrio()
-        ans += tonum(line)
+        ans += tonum(linie)
 
 print(ans)
