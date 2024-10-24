@@ -3,13 +3,20 @@
 
 import sys
 
+<<<<<<< HEAD
+def tonum(s)
+for line in sys.stdin:
+=======
 def tonum(s):
+>>>>>>> 1af6bbf195446a4c97ddc2c941dc874ef0289201
     try:
         return int(s)
     except:
         return float(s)
+
 ans = 0
 for line in sys.stdin:
-    ans += tonum(line)
+    line = line.rstrio()
+        ans += tonum(linie)
 
 print(ans)
