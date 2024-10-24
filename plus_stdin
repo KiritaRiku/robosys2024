@@ -1,4 +1,6 @@
 #!/usr/bin/python3
+# SPDX-FileCopyrightText: 2024 Kirita Riku <rikuribo1128@icloud.com>
+
 import sys
 
 def tonum(s):
