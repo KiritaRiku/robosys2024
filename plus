@@ -7,9 +7,9 @@ import sys
 
 def tonum(s):
     try:
-        return int(s)
+        return int(line)
     except:
-        return float(s)
+        return float(line)
 
 
 ans = 0
