@@ -1,7 +1,6 @@
 # robosys2024
 ロボットシステム学2024年学習用
 
-[![test](https://github.com/KiritaRiku/robosys2024/actions/workflows/test.yml/badge.svg)](https://github.com/KiritaRiku/robosys2024/actions/workflows/test.yml)
 
 - このソフトウェアパッケージは，3条項BSDライセンスの下，再頒布および使用が許可されます．
 - © 2024 Riku Kirita
@@ -17,3 +16,5 @@
 
 ##テスト環境
 - Ubuntu 20.04.6 LTS 
+
+© 2024 Riku Kirita
