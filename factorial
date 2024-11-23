@@ -1,0 +1,32 @@
+#!/usr/bin/python3
+# SPDX-FileCopyrightText: 2024 Kirita Riku <rikuribo1128@icloud.com>
+# SPDX-License-Identifier: BSD-3-Clause
+
+import sys
+
+
+def tonum(s):
+    try:
+        return int(s)
+    except ValueError:
+        raise ValueError("整数を入力してください")
+
+
+for line in sys.stdin:
+    line = line.rstrip()
+    try:
+        N = tonum(line)
+
+        
+        if N < 0:
+            print("負ではない整数を入力してください")
+            continue
+
+        # 階乗計算
+        ans = 1
+        for i in range(1, N + 1):
+            ans *= i
+
+        print("{}の階乗は{}です。". format(N, ans))
+    except ValueError as e:
+        print(e)
