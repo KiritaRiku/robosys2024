@@ -22,7 +22,7 @@ for line in sys.stdin:
             print("負ではない整数を入力してください")
             continue
 
-        # 階乗計算
+
         ans = 1
         for i in range(1, N + 1):
             ans *= i
