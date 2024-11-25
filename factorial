@@ -27,6 +27,6 @@ for line in sys.stdin:
         for i in range(1, N + 1):
             ans *= i
 
-        print("{}の階乗は{}です。". format(N, ans))
-    except ValueError as e:
-        print(e)
+        print(f"{N}! = {ans}")
+    except ValueError:
+        print("エラーが発生しました。")
