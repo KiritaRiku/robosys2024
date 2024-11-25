@@ -21,7 +21,7 @@ ans="1! = 1
 
 #負の数を入力した時
 out=$(seq -2 | ./factorial)
-[ "$out" = "負ではない整数を入力してください"] && ng "$LINENO"
+[ "$out" = "負ではない整数を入力してください" ] && ng "$LINENO"
 
 #文字を入力したとき
 out=$(echo あ | ./factorial)
