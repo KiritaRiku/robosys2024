@@ -36,12 +36,14 @@ cd robosys2024
 4の階乗は24です。
 
 
-```
-./factorial
-```
+```bash
+./fanctorial
 6
 ```
+
+出力の結果
 6の階乗は720です。
+
 
 ##必要なソフトウェア
 - Python
