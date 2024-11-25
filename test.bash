@@ -10,7 +10,7 @@ ng (){
 res=0
 
 out=$(seq 5 | ./factorial)
-[ "${out}" = 120 ] || ng "$LINENO"
+[ "${out}" = "5の階乗は120です。" ] || ng "$LINENO"
 
 [ "$res" = 0 ] && echo OK
 exit $res
