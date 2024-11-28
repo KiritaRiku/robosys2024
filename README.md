@@ -8,10 +8,12 @@
 	- https://ryuichiueda.github.io/slides_marp/robosys2024/lesson5.html#7
 
 ## 概要
+
 - このリポジトリは2024年度の千葉工業大学のロボットシステム学の講義で
 githubについての学習を目的として制作、公開をしています。
 
 ## インストールの方法
+
 - 以下の手順に従いインストールをしてください。
 
 ```bash
@@ -22,13 +24,14 @@ $ git clone https://github.com/KiritaRiku/robosys2024.git
 $ cd robosys2024
 
 コマンドを最初に実行するとき、実行権限の付与をしてください。
-$chmod +x factorial
+$ chmod +x factorial
 
 以降はコマンドの実行をする際は次のように入力してください。
 $ ./factorial
 ```
 
 ## コマンドの説明 
+
 ```
 ans = 1
 for i in range(1, N + 1):
@@ -57,6 +60,7 @@ $ seq 5 | ./factorial
 ```
 
 2. 入力例
+
 ```
 $ ./factorial
 ```
@@ -68,6 +72,7 @@ $ 4
 - 階乗を計算したい数字を入力する。
 
 ### 実行結果
+
 ```
 4! = 24
 ```
