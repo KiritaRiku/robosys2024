@@ -16,7 +16,7 @@ githubについての学習を目的として制作、公開をしています�
 
 ```bash
 リポジトリをクローン
-$ https://github.com/KiritaRiku/robosys2024.git
+$ git clone https://github.com/KiritaRiku/robosys2024.git
 
 ディレクトリの移動
 $ cd robosys2024
@@ -30,11 +30,11 @@ $ ./factorial
 
 ## コマンドの説明 
 ```
- ans = 1
-        for i in range(1, N + 1):
-            ans *= i
+ans = 1
+for i in range(1, N + 1):
+    ans *= i
 
-        print(f"{N}! = {ans}")
+print(f"{N}! = {ans}")
 ```
 - 入力された正の整数Nについて階乗を計算します。
 	- 入力する数字は半角で入力してください
